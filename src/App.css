@@ -4,10 +4,15 @@
 
 body {
   font-family: sans-serif;
-  padding: 20px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  background-color: grey;
 }
 
 .flashcards {
+  width: 40rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
