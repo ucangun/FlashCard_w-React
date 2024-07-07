@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React Flashcard App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://umutflashcard.netlify.app/
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Purpose
+The primary objective of this project is to enhance and demonstrate my skills in React by working with `useState` to manage state within a small flashcard application. This project serves as a practical application to understand and implement state management in React components.
 
-### `npm start`
+## Project Skeleton
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+(folder)
+|
+├── public
+|    └── index.html
+│    
+├── src
+│    ├── App.css
+│    ├── App.js
+│    ├── FlashCards.jsx
+│    ├── data.js
+│    └── index.js
+│
+├── .gitignore
+├── package.lock.json
+├── package.json
+└── README.md
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies Used
+- **HTML**: Used for structuring the content and layout of the application.
+- **CSS**: Employed for styling and enhancing the visual aspects of the app.
+- **React**: Implemented for building the user interface. Key React features include:
+  - Managing state using `useState`
+  - Creating and managing components using JSX
+  - Fetching data from a local JSON file
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### At the end of the project, will be able to;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project has significantly contributed to my understanding and mastery of React state management. By developing this flashcard application, I have gained practical experience in using the `useState` hook to manage state within components. This foundational knowledge will be essential for more advanced React projects in the future.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"> 📚 Happy Coding! ⚛️ </p>
